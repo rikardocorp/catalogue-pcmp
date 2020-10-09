@@ -48,7 +48,7 @@ const Index = () => {
                             <DetailFicha item={query[0]}></DetailFicha>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className='pt-4 pt-sm-1'>
                         <Col sm={12}>
                             <Title className='pt-4 text-uppercase'>
                                 <span>Ubicación Geográfica</span>

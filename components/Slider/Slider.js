@@ -17,7 +17,7 @@ const Slider = ({ images }) => {
                 </button>
                 <div className="slider--feature">
                     <h1 className="feature--title">Murciélagos</h1>
-                    <p ref={slideText} style={{ padding: '0 150px'}} className="feature--text"></p>
+                    <p ref={slideText} className="feature--text"></p>
                     <button onClick={() => Router.push('/catalogo')} 
                         className="feature__btn" style={{
                         background: 'rgb(0, 0, 0, 61%)',

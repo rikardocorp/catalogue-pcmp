@@ -23,22 +23,22 @@ class index extends Component {
                 </Head>
                 <Slider images={BANNER_IMAGES}></Slider>
 
-                <LayoutSection id='main-body' className='mt-5 p-5 p-md-1 w-md-75'>
+                <LayoutSection id='main-body' className='mt-5 p-4 p-sm-5 p-md-1 w-md-75'>
                     <Title className='pt-5 text-uppercase'>
                         Murciélagos
                     </Title>
 
                     <Row>
-                        <Col>
+                        <Col sm={12}>
                             <p>
-                                Los quirópteros (Chiroptera), conocidos comúnmente como murciélagos,N 1​ son un orden de mamíferos placentarios cuyas extremidades superiores se desarrollaron como alas. Con unas 1100 especies actuales, representan aproximadamente un 20 % de todas las especies de mamíferos,4​ lo que los convierte, tras los roedores, en el segundo orden más diverso de esta clase. Están presentes en todos los continentes, excepto en la Antártida.
+                                Los quirópteros (Chiroptera), conocidos comúnmente como murciélagos, son un orden de mamíferos placentarios cuyas extremidades superiores se desarrollaron como alas. Con unas 1100 especies actuales, representan aproximadamente un 20 % de todas las especies de mamíferos, lo que los convierte, tras los roedores, en el segundo orden más diverso de esta clase. Están presentes en todos los continentes, excepto en la Antártida.
                             </p>
 
                                 <p>
-                                    Son los únicos mamíferos capaces de volar,N 2​ se han extendido por casi todo el mundo y han ocupado una gran variedad de nichos ecológicos diferentes. Desempeñan un papel ecológico vital como polinizadores, como controladores de plagas de insectos y pequeños vertebrados y también desarrollan un importante papel en la dispersión de semillas; muchas plantas tropicales dependen por completo de los murciélagos.6​ Tienen las patas anteriores transformadas en alas y más de la mitad de especies conocidas se orientan y cazan por medio de la ecolocalización.7​ Cerca de un 70 % de las especies son insectívoras y la mayor parte del resto frugívoras; algunas se alimentan de pequeños vertebrados como ranas, roedores, aves, peces, otros murciélagos o, como en el caso de los vampiros (subfamilia Desmodontinae), de sangre.
+                                    Son los únicos mamíferos capaces de volar, se han extendido por casi todo el mundo y han ocupado una gran variedad de nichos ecológicos diferentes. Desempeñan un papel ecológico vital como polinizadores, como controladores de plagas de insectos y pequeños vertebrados y también desarrollan un importante papel en la dispersión de semillas; muchas plantas tropicales dependen por completo de los murciélagos. Tienen las patas anteriores transformadas en alas y más de la mitad de especies conocidas se orientan y cazan por medio de la ecolocalización. Cerca de un 70 % de las especies son insectívoras y la mayor parte del resto frugívoras; algunas se alimentan de pequeños vertebrados como ranas, roedores, aves, peces, otros murciélagos o, como en el caso de los vampiros (subfamilia Desmodontinae), de sangre.
                             </p>
                         </Col>
-                        <Col>
+                        <Col sm={12}>
                             <p className='text-center'>
                                 <img width='150' src={'./images2/bat.png'}></img>
                             </p>

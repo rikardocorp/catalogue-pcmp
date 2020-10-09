@@ -84,3 +84,33 @@ body {
 .fadeIn {
   animation: fadeIn 0.5s;
 }
+
+
+@include media-breakpoint-up(md) {
+  .slider--feature{
+    .feature--text{
+      padding:0 150px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .slider--feature{
+    width: 90%;
+    margin: 0 auto;
+    .feature--text{
+      padding: 0;
+    }
+    .feature--title {
+      font-size: 2rem;
+    }
+  }
+  .slider__btn-left, .slider__btn-right{
+    position: absolute;
+  }
+  .slider__btn-right{
+    right: 0;
+  }
+}
+
+

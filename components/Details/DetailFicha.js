@@ -7,14 +7,16 @@ const DetailFicha = ({ item = null }) => {
     const [SizeId, setSizeId] = useState(null)
     const { reino = '', nombre_cientifico = '', filo = '', clase = '', orden='', genero='', alimentacion=''} = item || {}
 
-    let col1 = 'col-3 col-sm-5 col-lg-4'
-    let col2 = 'col-3 col-sm-7 col-lg-8'
+    let col1 = 'col-6 col-sm-5 col-lg-4'
+    let col2 = 'col-6 col-sm-7 col-lg-8'
 
     return (
         <div className='cp-detail-product'>
-            <span>{reino}</span>
-            <h5><strong>{nombre_cientifico}</strong></h5>
-
+            <div className='text-sm-left text-center'>
+                <span>{reino}</span>
+                <h5><strong>{nombre_cientifico}</strong></h5>
+            </div>
+            
             <Row className='pt-3'>
                 <div className={col1 + ' text-right'}>
                     <strong>Filo : </strong>
